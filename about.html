@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - TravelBloom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">TravelBloom</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+      <button type="button" id="btnSearch" onclick="window.location.href='index.html'">Search</button>
+      <button type="button" id="btnClear" onclick="document.getElementById('searchInput').value=''">Clear</button>
+    </div>
+  </nav>
+
+  <main class="page-section">
+    <h1>About Us</h1>
+    <p>
+      Welcome to TravelBloom! We are a dedicated team of travel enthusiasts and technology
+      specialists committed to helping travelers discover authentic global experiences.
+      Our mission is to provide accurate, inspiring destination recommendations across beaches,
+      historic temples, and cultural cities worldwide.
+    </p>
+    <p>
+      <strong>Team Member Guidelines &amp; Instructions:</strong> All team members should verify
+      destination details, ensure high-resolution imagery is up to date, respond promptly to
+      traveler inquiries, and maintain accurate cultural and seasonal travel advisories.
+    </p>
+
+    <h2>Our Team</h2>
+    <div class="team-grid">
+      <div class="team-card">
+        <h3>Sarah Jenkins</h3>
+        <p>Oversees company strategy, destination partnerships, and global traveler experience.</p>
+        <span class="role-badge">Chief Executive Officer</span>
+      </div>
+      <div class="team-card">
+        <h3>David Morales</h3>
+        <p>Leads regional travel curation, cultural research, and destination quality standards.</p>
+        <span class="role-badge">Head of Travel Operations</span>
+      </div>
+      <div class="team-card">
+        <h3>Amina Al-Mansoor</h3>
+        <p>Manages platform engineering, search features, and interactive user workflows.</p>
+        <span class="role-badge">Lead Web Developer</span>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
